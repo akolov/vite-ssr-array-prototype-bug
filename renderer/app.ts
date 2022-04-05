@@ -1,3 +1,5 @@
+import "./array.extensions"
+
 import { createSSRApp, defineComponent, h } from 'vue'
 import PageShell from './PageShell.vue'
 import { setPageContext } from './usePageContext'
